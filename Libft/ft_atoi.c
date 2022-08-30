@@ -6,13 +6,13 @@
 /*   By: qmoreau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 11:05:36 by qmoreau           #+#    #+#             */
-/*   Updated: 2021/11/27 11:15:34 by qmoreau          ###   ########.fr       */
+/*   Updated: 2022/03/29 13:34:12 by qmoreau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-int	ft_atoi(const char *nprt)
+long int	ft_atoi(const char *nprt)
 {
 	long int	compt;
 	int			signe;

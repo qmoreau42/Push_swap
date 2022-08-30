@@ -6,7 +6,7 @@
 #    By: qmoreau <qmoreau@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 15:55:56 by qmoreau           #+#    #+#              #
-#    Updated: 2022/03/09 13:44:23 by qmoreau          ###   ########.fr        #
+#    Updated: 2022/06/24 14:23:26 by qmoreau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,7 +73,7 @@ B_OBJS	= ${BONUS:.c=.o}
 
 CC		= cc
 
-CFLAGS	= -Wall -Wextra -Werror
+CFLAGS	= -g -Wall -Wextra -Werror
 
 #so:
 #	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS) ${BONUS}

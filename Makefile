@@ -6,17 +6,26 @@
 #    By: qmoreau <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/06 14:04:05 by qmoreau           #+#    #+#              #
-#    Updated: 2022/03/09 14:11:59 by qmoreau          ###   ########.fr        #
+#    Updated: 2022/08/28 18:33:28 by qmoreau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = gcc
+CC = gcc -g
 
 NAME = push_swap
 
 FLAGS = -Wall -Wextra -Werror
 
 SRCS = push_swap.c\
+	   actions_1.c\
+	   actions_2.c\
+	   actions_3.c\
+	   utils_1.c\
+	   utils_2.c\
+	   sort.c\
+	   sort_1.c\
+	   cost.c\
+
 
 
 OBJS = $(SRCS:.c=.o)
@@ -30,7 +39,7 @@ $(NAME) : $(OBJS)
 all : $(NAME)
 
 clean :
-		rm -f $(OBJS) $(NAME)
+		rm -f *.o $(NAME)
 		$(MAKE) clean -C ./Libft
 
 fclean : clean

@@ -6,22 +6,20 @@
 /*   By: qmoreau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 11:34:34 by qmoreau           #+#    #+#             */
-/*   Updated: 2021/12/08 11:34:38 by qmoreau          ###   ########.fr       */
+/*   Updated: 2022/08/23 16:47:48 by qmoreau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"stdlib.h"
 
-void	ft_bzero(void *s, size_t n)
+void	ft_bzero(int *s, size_t n)
 {
 	long unsigned int	i;
-	unsigned char		*str;
 
 	i = 0;
-	str = s;
 	while (i < n)
 	{
-		str[i] = '\0';
+		s[i] = 0;
 		i++;
 	}
 }

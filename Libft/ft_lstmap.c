@@ -6,12 +6,12 @@
 /*   By: qmoreau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 16:00:40 by qmoreau           #+#    #+#             */
-/*   Updated: 2021/12/01 17:00:21 by qmoreau          ###   ########.fr       */
+/*   Updated: 2022/05/10 15:50:01 by qmoreau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
-
+/*
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*ret;
@@ -32,4 +32,4 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		temp = temp->next;
 	}
 	return (ret);
-}
+}*/
